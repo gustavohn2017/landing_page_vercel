@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+header {
+    background: linear-gradient(to bottom, #87CEEB, #4682B4);
+    position: relative;
+    padding: 16px 0;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+nav {
+    float: right; /* Alinha a navegação à direita */
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden; /*limpando float*/
+}
+
+#about {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+/*Brand list*/
+.brands-list img{
+    height: 32px;
+    text-decoration: none;
+    padding-left: 32px;
+    margin-top: 12px;
+    
+}
+
+.brands-list li{
+    display: inline;
+}
+
+.img-sobre {
+    float: right; /* Imagem à direita */
+    max-width: 50%; /* 50% da largura do contêiner */
+    margin-left: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.div-sobre {
+    max-width: 40%; /* 40% da largura do contêiner */
+}
+.div-sobre p {
+    max-width: 70%; 
+    padding-top: 20px ;
+    padding-bottom: 25px;
+    text-align: justify;
+}
+
+#contact {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+}
+
+.fale-conosco {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input, 
+form textarea, 
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    color: #fff;
+}
+
+
+
+form textarea{
+    resize: none;
+    height: 120px;
+    
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background: linear-gradient(to bottom, #87CEEB, #4682B4);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background: linear-gradient(to bottom, #06acee, #bed9f0);
+}
+/*Sociais*/
+.social-links img{
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+
+}
+
+section, h3{
+ font-style: italic;
+ margin-bottom: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
